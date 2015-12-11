@@ -2,7 +2,6 @@ node_modules
 www/*
 !www/index.html
 platforms
-plugins/*
-!plugins/fetch.json
+plugins
 po/*.pot
 po/*.mo
