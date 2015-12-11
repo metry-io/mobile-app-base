@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="metry-mobile-app-base">
+  <head>
+    <meta charset="utf-8">
+    <!-- localhost:3000 is used for browserSync server during development -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://ajax.googleapis.com data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; connect-src http://localhost:3000 ws://localhost:3000 https://app.metry.io">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="bundle.css">
+    <title>App Title</title>
+  </head>
+  <body>
+    <ion-nav-view></ion-nav-view>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="bundle.js"></script>
+  </body>
+</html>

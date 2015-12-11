@@ -1,0 +1,30 @@
+{
+  "scripts" : {
+    "main": "./src/index.js",
+    "targetName": "bundle.js"
+  },
+  "styles": {
+    "main":  "./src/index.scss",
+    "all": "./src/**/*.scss",
+    "targetName": "bundle.css",
+    "autoprefixerOptions": ["ios >= 7", "android >= 4", "last 1 Chrome versions"]
+  },
+  "html": {
+    "main": "./src/index.html"
+  },
+  "resources": {
+    "main": "./res/**/*"
+  },
+  "translations": {
+    "extract": {
+      "source" : ["./src/**/*.js", "./src/**/*.html"],
+      "dest": "./po"
+    },
+    "compile": {
+      "source" : "./po/**/*.po"
+    }
+  },
+  "dest": {
+    "path": "./www"
+  }
+}

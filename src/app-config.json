@@ -1,0 +1,24 @@
+{
+  "version": "0.1",
+  "contact": {
+    "phone": "",
+    "phoneDisplay": "",
+    "mail": "",
+    "address": ""
+  },
+  "news" : {
+    "feedUrl": "",
+     "entriesKey": "responseData.feed.entries",
+     "titleKey": "title",
+     "contentKey": "contentSnippet",
+     "linkKey": "link"
+  },
+  "nordpool": {
+    "area": ""
+  },
+  "apiBaseUrl": "https://app.metry.io/",
+  "init": {
+    "initialState": "consumption",
+    "setupFailedState": "settings"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "metry-mobile-app-base",
+  "version": "0.1.0",
+  "description": "Base template for building an Ionic app based on the Metry platform",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/gulp",
+    "build": "./node_modules/.bin/gulp bundle-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metry-io/mobile-app-base.git"
+  },
+  "keywords": [
+    "metry",
+    "ionic",
+    "cordova",
+    "angular"
+  ],
+  "author": "Torsten Freyhall <torsten.freyhall@metry.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metry-io/mobile-app-base/issues"
+  },
+  "homepage": "https://github.com/metry-io/mobile-app-base#readme",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-animate": "^1.4.8",
+    "angular-gettext": "^2.1.2",
+    "angular-sanitize": "^1.4.8",
+    "angular-ui-router": "^0.2.15",
+    "energimolnet-ng": "^0.5.2",
+    "ionic-sdk": "^1.2.0",
+    "metry-mobile-app-components": "^0.2.3"
+  },
+  "devDependencies": {
+    "brfs": "^1.4.1",
+    "browser-sync": "^2.10.0",
+    "browserify": "^12.0.1",
+    "browserify-ngannotate": "^2.0.0",
+    "bundle-collapser": "^1.2.1",
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-angular-gettext": "^2.1.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-htmlmin": "^1.2.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "lodash.assign": "^3.2.0",
+    "require-dir": "^0.3.0",
+    "uglifyify": "^3.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
+  }
+}
