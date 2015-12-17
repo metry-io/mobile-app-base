@@ -9,6 +9,7 @@ gulp.task('server', function() {
     server: {
       baseDir: config.dest.path
     },
-    files: config.dest.path + '/*'
+    files: config.dest.path + '/*',
+    open: false
   });
 });
