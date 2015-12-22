@@ -33,7 +33,7 @@
     "angular-ui-router": "^0.2.15",
     "energimolnet-ng": "^0.5.2",
     "ionic-sdk": "^1.2.0",
-    "metry-mobile-app-components": "^0.2.5"
+    "metry-mobile-app-components": "^0.3.3"
   },
   "devDependencies": {
     "brfs": "^1.4.1",
