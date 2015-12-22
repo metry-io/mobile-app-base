@@ -25,6 +25,7 @@ var angular = require('angular');
 // These modules don't expose angular module titles so we need to require them
 // to include source code and then add their module name as a dependency of our
 // app.
+require('../node_modules/angular-i18n/angular-locale_sv.js');
 require('../node_modules/ionic-sdk/release/js/ionic.js');
 require('../node_modules/ionic-sdk/release/js/ionic-angular.js');
 require('angular-gettext');
